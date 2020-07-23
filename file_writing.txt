@@ -1,0 +1,29 @@
+hello we are writing this into the file
+hey, this value is appending to the existing file
+
+hey, this value is appending to the existing file
+
+hey, this value is appending to the existing file
+
+hey, this value is appending to the existing file
+
+hey, this value is appending to the existing file
+
+hey, this value is appending to the existing file
+
+hey, this value is appending to the existing file
+
+hey, this value is appending to the existing file
+
+hey, this value is appending to the existing file
+
+hey, this value is appending to the existing file
+
+hey, this value is appending to the existing file
+thanksthanks
+ hey this line was added
+ hey this line was added
+ hey this line was added
+ hey this line was added using r+ in with mode
+ hey this line was added using r+ in with mode
+ hey this line was added using r+ in with mode
