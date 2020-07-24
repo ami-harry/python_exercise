@@ -200,7 +200,7 @@ def topic_add(sub_name):
 def topic_see(sub_name):
     if sub_name == 1:
         topic = int(input(
-            "Enter\n1 to see learned topics\n2 to see important topics\n3 to see remaining topcs\n4 to see projects name"))
+            "Enter\n1 to see learned topics\n2 to see important topics\n3 to see remaining topcs\n4 to see projects name\n"))
 
         if topic == 1:
             with open("python_new_topic_add.txt") as hk:
@@ -209,7 +209,7 @@ def topic_see(sub_name):
                 print()
 
         elif topic == 2:
-            with open("python_imp_topic_add.txt", "a") as hk:
+            with open("python_imp_topic_add.txt") as hk:
                 for data in hk:
                     print(data)
                 print()
@@ -231,7 +231,7 @@ def topic_see(sub_name):
 
     elif sub_name == 2:
         topic = int(input(
-            "Enter\n1 to see learned topics\n2 to see important topics\n3 to see remaining topcs\n4 to see projects name"))
+            "Enter\n1 to see learned topics\n2 to see important topics\n3 to see remaining topcs\n4 to see projects name\n"))
 
         if topic == 1:
             with open("java_new_topic_add.txt") as hk:
@@ -262,7 +262,7 @@ def topic_see(sub_name):
 
     elif sub_name == 3:
         topic = int(input(
-            "Enter\n1 to see learned topics\n2 to see important topics\n3 to see remaining topcs\n4 to see projects name"))
+            "Enter\n1 to see learned topics\n2 to see important topics\n3 to see remaining topcs\n4 to see projects name\n"))
 
         if topic == 1:
             with open("c++_new_topic_add.txt") as hk:
@@ -293,7 +293,7 @@ def topic_see(sub_name):
 
     elif sub_name == 4:
         topic = int(input(
-            "Enter\n1 to see learned topics\n2 to see important topics\n3 to see remaining topcs\n4 to see projects name"))
+            "Enter\n1 to see learned topics\n2 to see important topics\n3 to see remaining topcs\n4 to see projects name\n"))
 
         if topic == 1:
             with open("c_new_topic_add.txt") as hk:
@@ -324,7 +324,7 @@ def topic_see(sub_name):
 
     elif sub_name == 5:
         topic = int(input(
-            "Enter\n1 to see learned topics\n2 to see important topics\n3 to see remaining topcs\n4 to see projects name"))
+            "Enter\n1 to see learned topics\n2 to see important topics\n3 to see remaining topcs\n4 to see projects name\n"))
 
         if topic == 1:
             with open("WEB_new_topic_add.txt") as hk:
@@ -339,13 +339,13 @@ def topic_see(sub_name):
                 print()
 
         elif topic == 3:
-            with open("WEB_rem_topic_add.txt", "a") as hk:
+            with open("WEB_rem_topic_add.txt") as hk:
                 for data in hk:
                     print(data)
                 print()
 
         elif topic == 4:
-            with open("WEB_projects.txt", "a") as hk:
+            with open("WEB_projects.txt") as hk:
                 for data in hk:
                     print(data)
                 print()
@@ -355,7 +355,7 @@ def topic_see(sub_name):
 
     elif sub_name == 6:
         topic = int(input(
-            "Enter\n1 to see learned topics\n2 to see important topics\n3 to see remaining topcs\n4 to see projects name"))
+            "Enter\n1 to see learned topics\n2 to see important topics\n3 to see remaining topcs\n4 to see projects name\n"))
 
         if topic == 1:
             with open("java_script_new_topic_add.txt") as hk:
@@ -387,6 +387,7 @@ def topic_see(sub_name):
         print("Enter a valid input\n")
         print()
 
+
 print("\t\t\t\t\t\tHarry")
 print("\t\t\t\t Welcome to skill tracking records program\t\t\t\n")
 
@@ -404,4 +405,4 @@ elif choice == 2:
 
 else:
     print("Enter valid input\n")
-print("Thanks for using this progra")
+print("Thanks for using this program\n")
