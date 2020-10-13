@@ -1,5 +1,5 @@
 # make a dict and take input from the user and give the output of the entered word
-# if word is not found give a reply message that the word is not avilable in the dict try these keys form the dict
+# if word is not found give a reply message that the word is not available in the dict try these keys form the dict
 
 dict1 = {'apple': 'fruit', 'mutable': 'it can be modified',
          'immutable': 'we cant modify its element', 'name': 'harry', 'hii': 'bye'}
